@@ -1,8 +1,9 @@
 # What happens in the bar
 
+require './beer'
+require './Person_class'
 require './customer'
 require './bartender'
-require './Person_class'
 
 the_bartender = Bartender.new("Joe")
 captain_jack = Customer.new("Cpt. Jack")
