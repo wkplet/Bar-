@@ -1,4 +1,7 @@
+
 # Customer class
+
+# require "./person.rb"
 
 class Customer # < Person
   def initialize(name = "anonymous")

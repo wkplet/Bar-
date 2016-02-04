@@ -1,5 +1,9 @@
 # What happens in the bar
 
+require './customer'
+require './bartender'
+require './Person_class'
+
 the_bartender = Bartender.new("Joe")
 captain_jack = Customer.new("Cpt. Jack")
 
