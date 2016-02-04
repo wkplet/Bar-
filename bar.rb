@@ -14,7 +14,7 @@ the_bartender.serve(captain_jack)
 # Captain Jack can drink while he has beer
 while captain_jack.has_beer?
   captain_jack.drink!
-  sleep 1
+  sleep 0.3
 end
 
 captain_jack.drink!

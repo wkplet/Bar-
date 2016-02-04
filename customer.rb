@@ -17,7 +17,7 @@ class Customer < Person
   end
 
   def drunk?
-    @amount_drank > 2000
+    @amount_drank > 200
   end
 
   def take_beer(beer)
