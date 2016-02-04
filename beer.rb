@@ -4,7 +4,7 @@ class Beer
   attr_reader :amount
 
   def initialize
-    @amount = 250
+    @amount = 2500
   end
 
   def sip!
