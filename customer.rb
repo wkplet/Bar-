@@ -1,9 +1,7 @@
 
 # Customer class
 
-# require "./person.rb"
-
-class Customer # < Person
+class Customer < Person
   def initialize(name = "anonymous")
     super # Call the initialize(name) method in the super class (Person)
     @beers_had = []
